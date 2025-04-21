@@ -40,3 +40,5 @@ models:
     # Applies to all files under models/example/
     CASE_STUDY:
       +materialized: table
+    XML_DATA:
+      +materialized: table
