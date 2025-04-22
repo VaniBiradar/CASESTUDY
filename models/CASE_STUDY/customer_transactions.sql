@@ -6,7 +6,9 @@ T."Transaction_Date",
 T."Transaction_Type",
 T."Transaction_Mode",
 B."ACCOUNTNUMBER",
-B."BRANCH"
+B."BRANCH",
+B."FIRST_NAME",
+B."LAST_NAME"
 FROM
 MYDB.DBT.TRANSACTION_XML as T
 JOIN
