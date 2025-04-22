@@ -39,6 +39,6 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     CASE_STUDY:
-      +materialized: table
+      +materialized: Views
     XML_DATA:
-      +materialized: table
+      +materialized: Views
